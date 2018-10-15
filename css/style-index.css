@@ -40,13 +40,12 @@ p {
   font-family: 'Eczar', sans-serif;
 }
 
-.logo {
-  height:10em;
-  display: flex;
-  align-items: center;
-  justify-cntent: center;
-}
-
-.logo h1{
-  margin: 0;
+/* Header */
+header{
+  order: 1;
+  flex: 100%;
+  min-height: 250px;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
