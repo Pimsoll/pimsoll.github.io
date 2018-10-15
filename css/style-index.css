@@ -1,0 +1,38 @@
+/* -------------------------------------------------------
+
+Land Agency //
+
+Land-Agency.com
+LandAgency.net
+
+Version: 2
+
+Author: Jonathan Culp
+
+Contact: JonathanCulp.com
+
+----------------------------------------------------- */
+
+* { transition: all 1s; }
+* { box-sizing: border-box;}
+
+html{
+  font-size: 1rem;
+}
+
+/* General */
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  height:10em;
+  display: flex;
+  align-items: center;
+  justify-cntent: center;
+}
+
+.logo h1{
+  margin: 0;
+}
