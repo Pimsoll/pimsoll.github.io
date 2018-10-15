@@ -22,6 +22,15 @@ html{
 
 /* General */
 
+body{
+    background: url(http://i.imgur.com/tVwwGaj.png) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      min-height: 100vh;
+}
+
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 10rem;
