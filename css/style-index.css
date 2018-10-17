@@ -1,11 +1,10 @@
 /* -------------------------------------------------------
 
-Land Agency //
+Pimsoll //
 
-Land-Agency.com
-LandAgency.net
+Pimsoll.com
 
-Version: 2
+Version: 1
 
 Author: Jonathan Culp
 
@@ -41,6 +40,7 @@ body{
     font-smooth: always;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizedLegibility;
+    font-family: 'Eczar', sans-serif;
 
 }
 
@@ -48,10 +48,10 @@ body{
 header{
     order: 1;
     flex: 100%;
+    height: 90vh;
     text-align: center;
-    padding-top: 15%;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    padding-top: 30vh;
+    padding-bottom: 2em;
 }
 
 h1 {
@@ -60,11 +60,11 @@ h1 {
     text-align: center;
 }
 
-p {
-    font-family: 'Eczar', sans-serif;
+.header {
     line-height: 1.25;
     font-size: 3rem;
     text-align: center;
+    padding-top: 1em;
 }
 
 a{
@@ -79,6 +79,41 @@ object{
     width: 50%;
 }
 
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5;
+    font-size: 1.75rem;
+    
+}
+
+/* About */
+.story{
+    order: 2;
+    flex: 1;
+    height: 20vmax;
+    min-height: 300px;
+    padding: 2em;
+    background-color: antiquewhite;
+    float: left;
+}
+
+.alert{
+    order: 3;
+    flex: 1;
+    height: 20vmax;
+    min-height: 300px;
+    padding: 2em;
+    background-color: lightslategrey;
+    float: right;
+    
+}
+
+
+
+/* Screen */
+
 @media (max-width: 700px) {
 
    html{
@@ -88,6 +123,17 @@ object{
     object{
         width: 75%;
     }
+}
+
+@media (max-width: 500px) {
+
+   .story{
+     flex: 100%;
+   }
+    
+    .alert{
+     flex: 100%;
+   }
 }
 
 
