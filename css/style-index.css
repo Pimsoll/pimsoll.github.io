@@ -22,11 +22,6 @@ html{
     font-size: 1rem;
 }
 
-body, html { 
-    overflow-x: hidden; 
-    overflow-y: auto;
-}
-
 
 /* General */
 
@@ -41,6 +36,9 @@ body{
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizedLegibility;
     font-family: 'Eczar', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    
 
 }
 
@@ -80,7 +78,6 @@ object{
 }
 
 .container{
-    display: flex;
     text-align: center;
     justify-content: center;
     line-height: 1.5;
@@ -91,23 +88,40 @@ object{
 /* About */
 .story{
     order: 2;
-    flex: 1;
+    flex: 50%;
     height: 20vmax;
-    min-height: 300px;
-    padding: 2em;
+    min-height: 400px;
+    text-align: center;
+    padding: 1em;
     background-color: antiquewhite;
     float: left;
 }
 
 .alert{
     order: 3;
-    flex: 1;
+    flex: 50%;
     height: 20vmax;
-    min-height: 300px;
-    padding: 2em;
+    min-height: 400px;
+    padding: 1em;
     background-color: lightslategrey;
     float: right;
     
+}
+
+/* The Goods */
+
+.goods {
+    order: 5;
+    flex: 100%;
+    font-family: "Roboto", sans-serif;
+    background-color: aliceblue;
+}
+
+.goods h2 {
+    font-size: 8rem;
+    font-weight: 900;
+    text-align: center;
+    margin: .25em;
 }
 
 
@@ -116,12 +130,13 @@ object{
 
 @media (max-width: 700px) {
 
-   html{
-     font-size: .7rem;
-   }
-    
+
     object{
         width: 75%;
+    }
+    
+    .container{
+        font-size: 1rem;
     }
 }
 
@@ -129,6 +144,7 @@ object{
 
    .story{
      flex: 100%;
+       
    }
     
     .alert{
