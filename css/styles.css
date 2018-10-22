@@ -1,0 +1,84 @@
+/* -------------------------------------------------------
+
+Pimsoll //
+
+pimsoll.com
+
+Version: 2
+
+Author: Jonathan Culp
+
+Contact: JonathanCulp.com
+
+----------------------------------------------------- */
+
+html{
+    font-size: 1rem;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizedLegibility;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: 25px 25px;
+    background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+}
+
+header{
+    order: 1;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+
+.title{
+    padding-left: 10%;
+    display: inline-block;
+}
+
+.pimsoll{
+    margin-top: 1.5em;
+    width: 40%;
+    position: fixed;
+}
+
+.card{
+    margin-top: 10em;
+    list-style: none;
+    padding: 10% 0;
+    display: inline-block;
+}
+
+.designation{
+    font-family: 'Eczar', serif;
+    font-size: 1.5rem;  
+}
+
+.answer{
+    font-size: 2.25rem;
+    line-height: 1; 
+}
+
+.feature{
+    position: absolute;
+    left: 14%;
+    background-color: aquamarine;
+    width: 75vw; 
+    max-width: 1200px;
+    height: 75vh;
+    z-index: -1;
+   
+}
+
+.info{
+    order: 2;
+    background-color: #f0efef;
+    width: 100%;
+    height: 250px;
+    
+}
