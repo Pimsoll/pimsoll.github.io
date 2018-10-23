@@ -54,7 +54,8 @@ header{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 8px 8px rgba(0, 0, 0, .2);
+    /*box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .pimsoll{
@@ -116,7 +117,7 @@ INFO SECTION
     display: flex;
     order: 4;
     flex: 50%;
-    font-family: 'Eczar', serif;
+    font-family: 'Oswald', serif;
     text-transform: capitalize;
     line-height: 1.5;
     text-align: center;
@@ -133,3 +134,10 @@ INFO SECTION
     margin: 0;
 }
 
+/* -------------------------------------------------------
+THE GOODS
+----------------------------------------------------- */
+
+.goods{
+    
+}
