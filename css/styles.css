@@ -27,28 +27,46 @@ body{
     padding: 0;
     background-size: 25px 25px;
     background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+    
+/* -------------------------------------------------------
+HEAD SECTION
+----------------------------------------------------- */
+    
 }
 
 header{
     order: 1;
-    display: flex;
     width: 100%;
-    height: 80vh;
+    padding-top: 3em;
 }
 
-.title{
-    padding-left: 10%;
-    display: inline-block;
+.feature{
+    margin: 0 auto;
+    position: relative;
+    margin-bottom: -5vh;
+    margin-top: 10vh;
+    background-color: aquamarine;
+    width: 75vw; 
+    max-width: 1200px;
+    height: 75vh;
+    background: url(../images/pimsoll-bkgd.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pimsoll{
-    margin-top: 1.5em;
+    margin-top: -5%;
+    margin-left: -5em;
     width: 40%;
     position: fixed;
 }
 
 .card{
-    margin-top: 10em;
+    margin-top: -3%;
+    margin-left: -5em;
     list-style: none;
     padding: 10% 0;
     display: inline-block;
@@ -64,21 +82,54 @@ header{
     line-height: 1; 
 }
 
-.feature{
-    position: absolute;
-    left: 14%;
-    background-color: aquamarine;
-    width: 75vw; 
-    max-width: 1200px;
-    height: 75vh;
-    z-index: -1;
-   
-}
+/* -------------------------------------------------------
+INFO SECTION
+----------------------------------------------------- */
 
 .info{
     order: 2;
     background-color: #f0efef;
-    width: 100%;
-    height: 250px;
+    height: auto;
+    display: flex;
+    padding: 10em 10em 3em 10em;
+}
+
+.story{
+    display: flex;
+    height: auto;
+    order: 3;
+    flex: 50%;
+    text-align: center;
+    justify-content: center;
+    float: left;
+    background-color: #edc7c5;
+    font-family: 'Eczar', serif;
+    color: #fff;
+    padding: 2em;
+    font-size: 1.75em;
+    line-height: 1.25;
+    margin-right: 2em;
+
+}
+
+.alert{
+    display: flex;
+    order: 4;
+    flex: 50%;
+    font-family: 'Eczar', serif;
+    text-transform: capitalize;
+    line-height: 1.5;
+    text-align: center;
+    justify-content: center;
+    float: right;
+    background-color: #fff;
+    font-size: 5em;
+    border: 10px solid #000; 
+    margin-bottom: 1em;
     
 }
+
+.alert h3{
+    margin: 0;
+}
+
