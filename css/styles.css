@@ -116,9 +116,9 @@ INFO SECTION
     display: flex;
     order: 4;
     flex: 50%;
-    font-family: 'Eczar', serif;
+    font-family: 'Oswald', serif;
     text-transform: capitalize;
-    line-height: 1.5;
+    line-height: 1.25;
     text-align: center;
     justify-content: center;
     float: right;
