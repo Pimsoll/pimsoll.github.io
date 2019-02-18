@@ -26,7 +26,7 @@ body{
     margin: 0;
     padding: 0;
     background-size: 25px 25px;
-    background-image: linear-gradient(to right, grey 1px, transparent 1px), linear-gradient(to bottom, grey 1px, transparent 1px);
+    background-image: linear-gradient(to right, #D3D3D3 1px, transparent 1px), linear-gradient(to bottom, #D3D3D3 1px, transparent 1px);
     
 /* -------------------------------------------------------
 HEAD SECTION
@@ -49,7 +49,7 @@ header{
     width: 75vw; 
     max-width: 1200px;
     height: 75vh;
-    background: url(../images/pimsoll-bkgd.png) no-repeat center center scroll;
+    background: url(../images/Pimsoll-painting.jpeg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
