@@ -75,12 +75,12 @@ h1 {
   height: 25vh;
   margin: 0 auto 10px;
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
-  font-size: 4rem;
-  color: #2B2B2B;
+  font-size: 2rem;
+  color: #000;
   background-color: #fff;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
-  padding: 7vh 0;
+  padding: 5vh 0 0 40%;
 }
 
 #apparel {
@@ -89,7 +89,19 @@ h1 {
     background-repeat: no-repeat;
 }
 
+#home {
+    background-image: url(../images/Pimsoll-pillow.png);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+}
+
+#prints {
+    background-image: url(../images/Pimsoll-art.png);
+    background-size: 20vh;
+    background-repeat: no-repeat;
+}
+
 .links .link:hover {
-  color: #BC9047;
+  color: #2B2B2B;
   background-color: rgba(255, 255, 255, .7) 
 }
